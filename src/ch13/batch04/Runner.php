@@ -89,6 +89,8 @@ class Runner
         $space = $mapper->find((int)$spaceid);
         $events = $space->getEvents();
 
+        //print_r($events);
+
         // now get a venue object and check we've won its spaces
         foreach ($events as $event) {
             print "    " . $event->getName() . "\n";

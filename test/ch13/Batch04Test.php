@@ -13,10 +13,10 @@ class Batch04Test extends BaseUnit
     public function testRunner()
     {
         $val = $this->capture(function() { Runner::run(); });
-        // print $val;
+        //print $val;
 
         $val = $this->capture(function() { Runner::run2(); });
-        //print $val;
+        print $val;
         
         $val = $this->capture(function() { Runner::run3(); });
         print $val;
