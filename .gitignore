@@ -1,3 +1,4 @@
 /vendor
 /.git
+/.idea
 /src/ch13/batch01/data/woo.db
